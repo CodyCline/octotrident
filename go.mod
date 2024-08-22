@@ -4,7 +4,10 @@ go 1.22.2
 
 require gopkg.in/src-d/go-git.v4 v4.13.1
 
-require github.com/google/go-querystring v1.1.0 // indirect
+require (
+	github.com/gofri/go-github-ratelimit v1.1.0 // indirect
+	github.com/google/go-querystring v1.1.0 // indirect
+)
 
 require (
 	github.com/emirpasic/gods v1.12.0 // indirect
@@ -20,6 +23,7 @@ require (
 	github.com/src-d/gcfg v1.4.0 // indirect
 	github.com/xanzy/ssh-agent v0.2.1 // indirect
 	golang.org/x/crypto v0.0.0-20190701094942-4def268fd1a4 // indirect
+	golang.org/x/exp v0.0.0-20240808152545-0cdaa3abc0fa
 	golang.org/x/net v0.0.0-20190724013045-ca1201d0de80 // indirect
 	golang.org/x/sys v0.0.0-20190726091711-fc99dfbffb4e // indirect
 	gopkg.in/src-d/go-billy.v4 v4.3.2 // indirect
